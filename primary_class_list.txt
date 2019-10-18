@@ -1,0 +1,10 @@
+<Kyle><Class list>
+Game_Environment
+Board
+Player
+Dice
+Card(branches into Chance and Chest)
+Bank
+Property
+Tile
+Jail
