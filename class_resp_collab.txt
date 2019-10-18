@@ -1,0 +1,24 @@
+Game Environment
+Responsibilities			Collaborators
+-track current state of the		Board,Player
+game such as number of players,
+which player is taking the turn,
+the instance of the game and the
+trades occuring
+
+Board
+-maintains the state of the tiles	Player,Tile,Property
+i.e. what property corresponds to
+which tile
+-tracks the position of a player
+in the board
+
+Player
+-tracks a players financial state,	Bank,Property,Tile
+properties owned and perks
+
+Bank
+-Completes interaction between		Card,Plyer
+player and card
+
+-
